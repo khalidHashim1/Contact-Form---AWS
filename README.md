@@ -33,11 +33,4 @@ This project shows a serverless contact form using **AWS Lambda**, **API Gateway
 - **Important:** Emails sent via SES can sometimes go to Gmail's Spam folder.  
   To avoid this, create a filter in Gmail to automatically mark these emails as “Not Spam” or move them to your inbox.
 
----
 
-**Technologies Used:**  
-- AWS Lambda (serverless backend)  
-- API Gateway (connects frontend with Lambda)  
-- DynamoDB (store submissions)  
-- Amazon SES (email notifications)  
-- Python (Lambda function)  
